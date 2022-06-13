@@ -1,0 +1,28 @@
+.view {
+  padding: 10px;
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.view_back_to_home {
+  display: flex;
+  margin-left: 2%;
+}
+.view_trash {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+  cursor: pointer;
+}
+.view_title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.view_title_label {
+  display: flex;
+  align-items: flex-start;
+}

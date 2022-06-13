@@ -1,0 +1,30 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.main_container {
+  padding: 1%;
+  height: 100%;
+  border: 1px solid gray;
+  margin: 1%;
+}
+.main_header {
+  font-family: "Courier New", Courier, monospace;
+}
+.main_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main_btn {
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.main_link {
+  text-decoration: none !important;
+}
